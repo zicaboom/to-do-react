@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.task-details-container{
+    background-color: #444;
+    margin: 15px 0;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    color: #eee;
+    border-radius: 5px;
+}
+.task-details-container h2{
+    margin-bottom: 5px;
+    color: chartreuse;
+}
+.task-details-container textarea{
+    margin-top: 10px;
+    background-color: #444;
+    color: #eee;
+    font-size: 16px;
+    overflow: auto;
+    min-height: 100px;
+    height:  auto;
+    border: none;
+    resize: none;
+    padding: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+.back-button-container{
+    width: 30%;
+    margin-top: 10px;
+}
