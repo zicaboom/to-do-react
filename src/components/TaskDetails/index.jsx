@@ -1,6 +1,6 @@
 import React from 'react';
 import { useHistory, useParams } from 'react-router-dom';
-import Button from './Button';
+import Button from '../Button';
 import "./TaskDetails.css"
 
 const TaskDetails = (task, handleTaskDetailsChange) => {
